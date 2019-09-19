@@ -15,6 +15,7 @@ Battery | 1430  mAh BL-5J
 Touch   | Synaptics
 Display | 4.0" 800 x 480 px (Orise-based)
 Camera  | 5MPx SMIA75 (520/525/1320/X2)
+Accelerometer  | ST lisn3dsh
 
 Variants
 =============
