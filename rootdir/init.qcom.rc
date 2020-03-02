@@ -36,7 +36,7 @@ on init
     symlink /sdcard /mnt/sdcard
     symlink /sdcard /storage/sdcard0
 
-    #export LD_PRELOAD "libsony.so"
+    export LD_PRELOAD "libsony.so"
 
 
 on early-boot
