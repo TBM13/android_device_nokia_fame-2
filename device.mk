@@ -230,5 +230,13 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/hostapd.accept:system/etc/hostapd/hostapd.accept \
     $(LOCAL_PATH)/wifi/hostapd.deny:system/etc/hostapd/hostapd.deny
 
+# ADB properties
+PRODUCT_PROPERTY_OVERRIDES += \
+	persist.service.adb.enable=1 \
+	persist.service.debuggable=1 \
+	persist.sys.usb.config=mtp,adb \
+	ro.secure=0 \
+	ro.adb.secure=0
+
 # Vendor product configurations
 $(call inherit-product, vendor/nokia/fame/fame-vendor.mk)
