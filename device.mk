@@ -231,7 +231,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/hostapd.deny:system/etc/hostapd/hostapd.deny
 
 # ADB properties
-PRODUCT_PROPERTY_OVERRIDES += \
+ADDITIONAL_DEFAULT_PROPERTIES += \
 	persist.service.adb.enable=1 \
 	persist.service.debuggable=1 \
 	persist.sys.usb.config=mtp,adb \
