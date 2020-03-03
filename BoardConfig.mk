@@ -95,6 +95,9 @@ MAX_EGL_CACHE_KEY_SIZE := 12*1024
 # of the device.
 MAX_EGL_CACHE_SIZE := 2048*1024
 
+# For text relocations
+TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS := true
+
 # RIL
 BOARD_RIL_CLASS := ../../../$(DEVICE_PATH)/ril/
 
